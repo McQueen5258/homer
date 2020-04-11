@@ -1,0 +1,29 @@
+img {
+    width: 200px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.homer-reply {
+    padding: 15px;
+    display: inline;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("https://github.com/McQueen5258/StarPoster/blob/master/51584492483_.pic_hd.jpg?raw=true");
+    background-attachment:fixed;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
